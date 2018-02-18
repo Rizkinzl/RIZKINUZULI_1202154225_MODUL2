@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rzknzl.rizkinuzuli_1202154225_modul2.activities.TakeAway">
+
+    <TextView
+        android:id="@+id/takeaway_pemesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="Customer Identity: "/>
+
+    <EditText
+        android:id="@+id/takeaway_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:ems="13"
+        android:hint="Name"
+        android:backgroundTint="@color/title"
+        />
+
+    <EditText
+        android:id="@+id/takeaway_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:ems="13"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:backgroundTint="@color/title"
+        />
+
+
+    <EditText
+        android:id="@+id/takeaway_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:ems="13"
+        android:hint="Address"
+        android:backgroundTint="@color/title"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        >
+
+        <Button
+            android:id="@+id/btnDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/title"
+            android:textColor="@color/textButton"
+            android:layout_marginLeft="100dp"
+            android:textSize="10dp"
+            android:padding="10dp"
+            android:text="Choose Date"
+            android:onClick="chooseDate"/>
+
+        <Button
+            android:id="@+id/btnTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/title"
+            android:textColor="@color/textButton"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:textSize="10dp"
+            android:text="Choose Time"
+            android:onClick="chooseTime"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/textButton"
+        android:backgroundTint="@color/title"
+        android:text="Choose Order"
+        android:onClick="pilihpesan"/>
+
+</LinearLayout>

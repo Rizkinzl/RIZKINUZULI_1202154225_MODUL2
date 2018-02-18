@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RIZKI NUZULI_1202154225_MODUL2</string>
+    <string name="date_str">datePicker</string>
+    <string name="time_str">timePicker</string>
+</resources>
